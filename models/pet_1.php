@@ -1,6 +1,6 @@
 
 
-<!-- PRODOTTI PER CANI -->
+<!-- FILE PRODOTTI PER CANI -->
 
 <?php
 include_once __DIR__ . '/products.php';
