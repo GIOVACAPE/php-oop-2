@@ -21,6 +21,7 @@ include_once __DIR__ . '/models/pet_2.php';
 
 <body>
     <div class="container">
+        <!-- PRIMA SEZIONE (cani) -->
         <h1 class="text-center mt-5">Acquista i prodotti per il tuo cucciolo!</h1>
         <div class="row">
             <?php foreach ($products_dog as $product) : ?>
@@ -37,7 +38,7 @@ include_once __DIR__ . '/models/pet_2.php';
                 </div>
             <?php endforeach; ?>
         </div>
-
+        <!-- SECONDA SEZIONE (gatti) -->
         <div class="row">
             <?php foreach ($products_cat as $product) : ?>
                 <div class="col-3 my-4">
